@@ -1,0 +1,59 @@
+/* --------------------------- *\
+        FUNCIONAMIENTOS
+\* --------------------------- */
+
+#preguntas {
+    padding: 0 150px 0 100px;
+}
+
+    .preguntas-imagen {
+        height: 100%;
+    }
+
+    .preguntas-titulo {
+        font-size: 5.4em;
+        font-weight: 600;
+        color: var(--color-principal);
+        text-align: center;
+
+        margin-top: 1em;
+        margin-bottom: 0.6em;
+    }
+
+    .preguntas-lista {
+        list-style: none;
+        padding: 0;
+    }
+
+        .preguntas-lista-elemento {
+            font-size: 2em;
+            color: #5B5B5B;
+            border: 1px solid #DEDEDE;
+            background-color: var(--color-lightgray);
+            padding: 0.15em 0;
+            cursor: pointer;
+
+            display: flex;
+            align-items: center;
+        }
+
+            .preguntas-lista-elemento i {
+                color: var(--color-principal);
+                padding-left: 1.2em;
+                padding-right: .6em;
+            }
+
+    .preguntas-boton {
+        border: 2px solid var(--color-principal);
+        border-radius: 2em;
+
+        color: var(--color-principal);
+        background-color: transparent;
+
+        font-size: 2em;
+        font-weight: 700;
+        padding: 0.1em 1em 0.3em;
+
+        display: block;
+        margin: 1.5em auto;
+    }
