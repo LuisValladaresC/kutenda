@@ -11,6 +11,7 @@
 
     .registro-titulo {
         font-size: 5.4em;
+        font-weight: 600;
         color: var(--color-white);
         text-align: center;
         line-height: 1;
