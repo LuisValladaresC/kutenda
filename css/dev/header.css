@@ -8,6 +8,7 @@
 }
 
     .header-contacto-enlace {
+        font-size: 1.2em;
         color: var(--color-secundario);
     }
     .header-contacto-enlace:last-of-type {

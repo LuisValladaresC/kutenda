@@ -2,7 +2,51 @@
               HERO
 \* --------------------------- */
 
-#inicio {
+.inicio-contenido {
     background-image: url('../..//src/images/slider_principal.png');
-    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    min-height: 40vw;
+
+    padding: 165px;
 }
+
+    .inicio-contenido-titulo {
+        font-size: 7.7em;
+        color: var(--color-white);
+        line-height: 1;
+    }
+
+    .inicio-contenido-formulario input {
+        width: 100%;
+        padding: 0.35em;
+        
+        font-size: 1.6em;
+        font-weight: 500;
+        text-align: center;
+        outline: none;
+
+        border: none;
+        border-radius: 3em;
+    }
+    .inicio-contenido-formulario input.submit {
+        color: var(--color-white);
+        background-color: var(--color-secundario);
+    }
+    .inicio-contenido-formulario input::placeholder {
+        color: var(--color-darkgray);
+    }
+
+    .inicio-formulario-enlace {
+        font-size: 1.6em;
+        color: var(--color-white) !important;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inicio-formulario-responsive {
+        display: none;
+    }

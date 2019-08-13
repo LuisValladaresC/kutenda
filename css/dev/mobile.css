@@ -12,11 +12,15 @@
             display: none;
         }
 
+        
+    .header-navbar {
+        margin: 0 30px;
+    }
+    
         .header-navbar-enlace.especial {
             color: var(--color-principal);
             background-color: transparent;
         }
-
 }
 
 /* Small devices (landscape phones, 576px and up) */
