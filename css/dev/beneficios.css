@@ -1,0 +1,71 @@
+/* --------------------------- *\
+        FUNCIONAMIENTOS
+\* --------------------------- */
+
+#beneficios {
+    padding: 0;
+    position: relative;
+}
+
+    .beneficios-titulo {
+        font-size: 5.4em;
+        font-weight: 600;
+        color: var(--color-principal);
+        text-align: left;
+
+        background-color: #E3F7FE;
+        padding: 0.1em 0;
+        padding-left: 150px;
+        margin: 0;
+    }
+
+    .beneficios-contenido {
+        background-color: var(--color-secundario);
+        padding-left: 150px;
+    }
+
+        .beneficios-contenido-imagen {
+            display: flex;
+            align-items: center;
+        }
+
+            .beneficios-contenido-imagen img {
+
+            }
+
+        .beneficios-contenido-subtitulo {
+            font-size: 3.6em;
+            color: var(--color-white);
+            display: inline-block;
+        }
+        
+        .beneficios-contenido-parrafo {
+            font-size: 2em;
+            font-weight: 300;
+            line-height: 1.2;
+            color: var(--color-white);
+
+            margin-top: .5em;
+            margin-bottom: 140px;
+        }
+
+    .beneficios-imagen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+        padding-left: 150px;
+    }
+
+        .beneficios-imagen img {
+            height: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+
+    .beneficios-margen {
+        height: 150px;
+    }
