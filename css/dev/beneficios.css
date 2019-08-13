@@ -22,6 +22,8 @@
     .beneficios-contenido {
         background-color: var(--color-secundario);
         padding-left: 150px;
+        width: 100%;
+        margin: 0;
     }
 
         .beneficios-contenido-imagen {
@@ -30,7 +32,7 @@
         }
 
             .beneficios-contenido-imagen img {
-
+                
             }
 
         .beneficios-contenido-subtitulo {
