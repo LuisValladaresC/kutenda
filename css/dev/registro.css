@@ -1,0 +1,37 @@
+/* --------------------------- *\
+            REGISTRO
+\* --------------------------- */
+
+#registro {
+    background-image: url('../../src/images/adorno.png');
+    background-size: 100% 100%;
+    padding: 75px;
+    padding-top: 40px;
+}
+
+    .registro-titulo {
+        font-size: 5.4em;
+        color: var(--color-white);
+        text-align: center;
+        line-height: 1;
+    }
+
+    .registro-formulario input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-radius: 1em;
+
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .registro-formulario input::placeholder {
+        color: var(--color-darkgray);
+    }
+    .registro-formulario input.submit {
+        font-size: 1.6em;
+        font-weight: 500;
+        color: var(--color-white);
+        background-color: var(--color-secundario);
+    }
