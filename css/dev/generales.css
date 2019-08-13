@@ -1,0 +1,15 @@
+/* --------------------------- *\
+			GENERALES
+\* --------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+html {
+    font-family: 'Open Sans';
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}

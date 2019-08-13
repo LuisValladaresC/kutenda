@@ -1,0 +1,15 @@
+/* --------------------------- *\
+			VARIABLES
+\* --------------------------- */
+
+:root {
+	/* Colores */
+	--color-black: #000000;
+	--color-darkgray: #9A9A9A;
+	--color-gray: #ECECEC;
+	--color-lightgray: #F9F9F9;
+    --color-white: #FFFFFF;
+    
+    --color-principal: #007AB5;
+    --color-secundario: #00B9F3;
+}
