@@ -57,8 +57,8 @@
     <main>
         <section class="container-fluid" id="inicio">
             <div class="row align-items-center inicio-contenido">
-                <div class="col-auto">
-                    <h2 class="mb-4 inicio-contenido-titulo">Inicia Sesión</h2>
+                <div class="col-lg-auto">
+                    <h2 class="mb-lg-4 inicio-contenido-titulo">Inicia<br class="d-lg-none"> Sesión</h2>
                     <div class="row">
                         <form class="col inicio-contenido-formulario" action="">
                             <div class="row mb-4">
@@ -82,14 +82,14 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row d-lg-none">
                 <form class="col inicio-formulario-responsive" action="">
-                    <input type="text" name="user" placeholder="Usuario">
-                    <input type="password" name="password"  placeholder="Contraseña">
-                    <a class="col" href="#">
+                    <input class="inicio-formulario-responsive-input" type="text" name="user" placeholder="Usuario">
+                    <input class="inicio-formulario-responsive-input" type="password" name="password"  placeholder="Contraseña">
+                    <a class="col inicio-formulario-responsive-enlace" href="#">
                         ¿Olvidaste tu Contraseña?
                     </a>
-                    <input type="submit" value="Ingresar >">
+                    <input class="inicio-formulario-responsive-boton" type="submit" value="Ingresar >">
                 </form>
             </div>
         </section>
@@ -99,10 +99,11 @@
                 <div class="col-auto">
                     <h2 class="registro-titulo mb-4">¿Eres nuevo cliente Kutenda?</h2>
                     <form class="row registro-formulario" action="">
-                        <div class="col-9 pr-5">
+                        <div class="col-lg-9 pr-lg-5">
                             <input type="text" name="code" id="code" placeholder="Escribe el codigo de quien te refirio con nosotros">
                         </div>
-                        <div class="col-3">
+                        <p class="d-lg-none">Escribe el codigo de quien te refirio con nosotros</p>
+                        <div class="col-lg-3">
                             <input class="submit" type="submit" value="Ingresar >">
                         </div>
                     </form>
@@ -112,14 +113,14 @@
 
         <section class="container-fluid" id="nosotros">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <h2 class="nosotros-titulo">Programa padrinos</h2>
                     <p class="nosotros-parrafo">En Kutenda nos basamos en la confianza y cuando hablamos de ella nos referimos incluso a la que se da entre las personas que se conocen en cada lugar de Colombia. La confianza da oportunidades para todos.</p>
                     <p class="nosotros-parrafo">Como prueba de esto, Kutenda no revisa las centrales de riesgo, como lo es DataCredito, pero si pide que clientes ya existentes nos refieren con nuevos clientes dando así también su voto de confianza en ellos</p>
                     <p class="nosotros-parrafo">De esta forma cada cliente nuevo puede ser conocido por Kutenda a través de quien lo refiere..... sí, así de simple!</p>
                     <button class="nosotros-boton">Más información</button>
                 </div>
-                <div class="col-6 align-self-end">
+                <div class="col-lg-6 align-self-end">
                     <img class="nosotros-imagen" src="./src/images/woman_exp.png" alt="Kutenda">
                 </div>
             </div>
@@ -127,12 +128,13 @@
 
         <section class="container-fluid" id="filosofia">
             <div class="row">
-                <div class="col">
+                <h2 class="col-12 filosofia-titulo-responsive d-lg-none">Filosofia Kutenda</h2>
+                <div class="col-lg col-12">
                     <img class="filosofia-imagen" src="./src/images/img_video.png" alt="Kutenda">
                 </div>
-                <div class="col">
-                    <h2 class="filosofia-titulo">Filosofia Kutenda</h2>
-                    <p class="filosofia-parrafo">Kutenda es la primera plataforma de prestamos en linea que esta pensada completamente para ti. Somos un grupo de gente como tú, que conocemos lo difícil y tedioso que puede ser pedir prestamos en instituciones financieras tradicionales (bancos).</p>
+                <div class="col-lg col-12">
+                    <h2 class="filosofia-titulo d-lg-block d-none">Filosofia Kutenda</h2>
+                    <p class="filosofia-parrafo">Kutenda es la primera plataforma de prestamos en linea que está pensada completamente para ti. Somos un grupo de gente como tú, que conocemos lo difícil y tedioso que puede ser pedir prestamos en instituciones financieras tradicionales (bancos).</p>
 
                     <p class="filosofia-parrafo">Por eso, decidimos crear este sitio, donde puedes cubrir tus necesidades de efectivo a corto plazo. ¡Todo esto desde la comodidad de tu casa u oficina! ¿Chévere, no?</p>
                 </div>
@@ -142,19 +144,19 @@
         <section class="container-fluid" id="funcionamiento">
             <h2 class="funcionamiento-titulo">¿Cómo funciona?</h2>
             <div class="row">
-                <div class="col funcionamientos-card">
+                <div class="col-lg col-12 funcionamientos-card">
                     <img class="funcionamiento-card-imagen" src="./src/images/proceso_1.png" alt="Kutenda">
                     <h3 class="funcionamiento-card-subtitulo">1 Paso</h3>
                     <p class="funcionamiento-card-parrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt</p>
                     <button class="funcionamiento-card-boton">Más información</button>
                 </div>
-                <div class="col funcionamientos-card mr-5 ml-5">
+                <div class="col-lg col-12 funcionamientos-card mr-lg-5 ml-lg-5">
                     <img class="funcionamiento-card-imagen" src="./src/images/proceso_2.png" alt="Kutenda">
                     <h3 class="funcionamiento-card-subtitulo">2 Paso</h3>
                     <p class="funcionamiento-card-parrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt</p>
                     <button class="funcionamiento-card-boton">Más información</button>
                 </div>
-                <div class="col funcionamientos-card">
+                <div class="col-lg col-12 funcionamientos-card">
                     <img class="funcionamiento-card-imagen" src="./src/images/proceso_3.png" alt="Kutenda">
                     <h3 class="funcionamiento-card-subtitulo">3 Paso</h3>
                     <p class="funcionamiento-card-parrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt</p>
@@ -164,11 +166,11 @@
         </section>
 
         <section class="container-fluid" id="beneficios">
-            <div class="beneficios-margen"></div>
+            <div class="beneficios-margen d-lg-block d-none"></div>
             <h2 class="beneficios-titulo">Beneficios</h2>
             <div class="row beneficios-contenido">
-                <div class="col-6">
-                    <div class="row mt-5 mb-5">
+                <div class="col-lg-6 col-12">
+                    <div class="row mt-lg-5 mb-lg-5">
                         <div class="col beneficios-contenido-imagen">
                             <img src="./src/images/ojo_icon.png" alt="Kutenda">
                         </div>
@@ -190,19 +192,20 @@
                 </div>
             </div>
             <div class="row beneficios-imagen">
-                <div class="offset-6 col-6">
+                <div class="offset-lg-6 col-lg-6 col-12">
+                    <span class="beneficios-imagen-background"></span>
                     <img src="./src/images/celular.png" alt="Kutenda">
                 </div>
             </div>
-            <div class="beneficios-margen"></div>
+            <div class="beneficios-margen d-lg-block d-none"></div>
         </section>
 
         <section class="container-fluid" id="preguntas">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <img class="preguntas-imagen" src="./src/images/men_question.png" alt="Kutenda">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <h2 class="preguntas-titulo">Preguntas Frecuentes</h2>
                     <ul class="preguntas-lista">
                         <li class="preguntas-lista-elemento"><i class="fas fa-plus-circle"></i> ¿Cuanto dinero puedo solicitar?</li>
@@ -222,11 +225,11 @@
 
     <footer class="container-fluid" id="footer">
         <div class="row footer-contenido">
-            <div class="col">
+            <div class="col-lg con-12">
                 <img class="footer-contenido-logo" src="./src/images/logo_white.png" alt="Kutenda">
                 <p class="footer-contenido-parrafo">Kutenda es la primera plataforma de préstamos en línea que está pensada completamente para ti.</p>
             </div>
-            <div class="col">
+            <div class="col-lg con-12">
                 <h3 class="footer-contenido-subtitulo">Destacados</h3>
                 <ul class="footer-contenido-lista">
                     <li class="footer-lista-elemento">
@@ -246,7 +249,7 @@
                     </li>
                 </ul>
             </div>
-            <address class="col">
+            <address class="col-lg con-12">
                 <h3 class="footer-contenido-subtitulo">Contáctanos</h3>
                 <ul class="footer-contenido-lista">
                     <li class="footer-lista-elemento">

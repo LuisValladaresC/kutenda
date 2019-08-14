@@ -1,26 +1,368 @@
-/* Large devices (desktops, 992px and up) */
 @media (max-width: 991px) { 
-    .header-contacto {
-        height: 50px;
-        background: url('../../src/images/adorno.png');
-        background-size: 100% 100%;
-        border-bottom: none;
-        margin: 0 ;
+
+/* ------ HEADER ------ */
+header {
+    padding: 0 !important;
+}
+
+.header-contacto {
+    height: 50px;
+    background: url('../../src/images/adorno.png');
+    background-size: 100% 100%;
+    border-bottom: none;
+    margin: 0 ;
+}
+
+    .header-contacto-enlace {
+        display: none;
+    }
+
+
+.header-navbar {
+    margin: 0 30px;
+}
+
+    .header-navbar-menu {
+        padding: 0
+    }
+
+    .header-navbar-logo {
+        max-width: 243px;
+    }
+
+    .header-navbar-enlace.especial {
+        color: var(--color-principal);
+        background-color: transparent;
+    }
+
+/* ------- HERO ------- */
+
+.inicio-contenido {
+    padding: 40px;
+}
+
+    .inicio-contenido-titulo {
+        font-size: 3em;
+        display: inline-block;
+    }
+
+    .inicio-contenido-formulario {
+        display: none;
+    }
+
+/* ------ REGISTRO ------ */
+
+#registro {
+    background: none;
+    background-color: var(--color-principal);
+    padding: 35px;
+}
+
+    .registro-titulo {
+        font-size: 2.6em;
+        line-height: initial;
+    }
+
+    .registro-formulario input::placeholder {
+        opacity: 0;
+    }
+
+    .registro-formulario p {
+        font-size: 1.6em;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--color-white);
+
+        padding: 0 1.2em;
+        margin: 1em auto;
+    }
+
+    .registro-formulario input.submit {
+        width: 210px;
+        display: block;
+        margin: 0 auto;
+
+        padding-bottom: 6px;
+        font-size: 1.6em;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+
+/* ------ NOSOTROS ------- */
+
+#nosotros {
+    padding: 0 30px;
+}
+
+    .nosotros-titulo {
+        font-size: 2.6em;
+        text-align: center;
+    }
+
+    .nosotros-parrafo {
+        font-size: 1.5em;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 1.1;
+    }
+    .nosotros-parrafo:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .nosotros-boton {
+        font-size: 1.4em;
+        padding: 0.1em 1.1em 0.2em;
+    }
+
+    .nosotros-imagen {
+        padding-top: 40px;
+        width: 100%;
+    }
+
+/* ------ FILOSOFIA ------- */
+
+#filosofia {
+    padding: 30px;
+    padding-bottom: 44px;
+    background-color: var(--color-secundario);
+}
+
+    .filosofia-titulo-responsive {
+        font-size: 2.6em;
+        font-weight: 600;
+        color: var(--color-white);
+        text-align: center;
+
+        padding: 0 1em;
+        margin-bottom: 30px;
+    }
+
+    .filosofia-imagen {
+        top: -0;
+        width: 100%;
+        margin-bottom: 30px;
     }
     
-        .header-contacto-enlace {
-            display: none;
+    .filosofia-parrafo {
+        font-size: 1.5em;
+        line-height: 1.1;
+    }
+
+/* ------ FUNCIONAMIENTOS ------ */
+
+#funcionamiento {
+    padding: 10px 40px;
+}
+
+    .funcionamiento-titulo {
+        font-size: 2.6em;
+        padding: 0 20px;
+    }
+
+        .funcionamiento-card-imagen {
+            width: 230px;
+        }
+        
+        .funcionamiento-card-subtitulo {
+            font-size: 2.6em;
+            line-height: 1;
+            margin-top: 30px;
         }
 
-        
-    .header-navbar {
-        margin: 0 30px;
-    }
-    
-        .header-navbar-enlace.especial {
-            color: var(--color-principal);
-            background-color: transparent;
+        .funcionamiento-card-parrafo {
+            font-size: 1.5em;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            margin-top: 20px
         }
+
+        .funcionamiento-card-boton {
+            border-width: 3px;
+
+            font-size: 1.4em;
+            padding: 0.1em 1em 0.2em;
+            margin-bottom: 55px;
+        }
+
+/* ------ BENEFICIOS ------ */
+
+#beneficios {
+    padding: 0;
+    position: relative;
+}
+
+    .beneficios-titulo {
+        font-size: 2.6em;
+        text-align: center;
+
+        padding: 0.25em 0;
+    }
+
+    .beneficios-contenido {
+        width: 100%;
+        background-color: var(--color-secundario);
+
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+    }
+
+        .beneficios-contenido-imagen {
+            padding: 0 10px;
+        }
+        .beneficios-contenido-imagen:first-of-type {
+            padding-left: 25px;
+        }
+        .beneficios-contenido-imagen:last-of-type {
+            padding-right: 25px;
+        }
+
+            .beneficios-contenido-imagen img {
+                max-width: 100%;
+            }
+
+        .beneficios-contenido-subtitulo {
+            font-size: 2.6em;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .beneficios-contenido-parrafo {
+            font-size: 1.35em;
+            line-height: 1.2;
+
+            margin-top: 1em;
+            margin-bottom: 0;
+            padding: 0 15px;
+        }
+
+    .beneficios-imagen {
+        position: relative;
+
+        padding-left: 0;
+        margin: 0;
+    }
+
+        .beneficios-imagen img {
+            width: 100%;
+            height: auto;
+            padding: 0 30px;
+        }
+
+        .beneficios-imagen-background {
+            background-color: var(--color-secundario);
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            z-index: -1;
+        }
+
+/* ------ PREGUNTAS ------ */
+
+#preguntas {
+    padding: 0;
+    padding-bottom: 30px;
+}
+#preguntas .row {
+    margin: 0;
+}
+#preguntas .col-12 {
+    padding: 0;
+}
+
+    .preguntas-imagen {
+        height: auto;
+        width: 100%;
+        padding-left: 30px;
+
+        border-bottom: 4px solid var(--color-principal);
+    }
+
+    .preguntas-titulo {
+        font-size: 2.6em;
+
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 0 30px;
+    }
+
+    .preguntas-lista {
+        list-style: none;
+        padding: 0;
+        margin: 0 25px;
+    }
+
+        .preguntas-lista-elemento {
+            font-size: 1em;
+            font-weight: 500;
+        }
+
+            .preguntas-lista-elemento i {
+                padding-left: 15px;
+                padding-right: 8px;
+            }
+
+    .preguntas-boton {
+        border-width: 3px;
+        font-size: 1.4em;
+        padding: 0.1em 1em 0.2em;
+
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+/* ------ FOOTER ------ */
+
+.footer-contenido {
+    padding: 15px;
+    padding-bottom: 0;
+}
+.footer-contenido .col,
+.footer-contenido .col:first-child {
+    padding: 0;
+}
+
+    .footer-contenido-logo {
+        max-width: 340px;
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer-contenido-parrafo {
+        font-size: 1.35em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-contenido-subtitulo {
+        font-size: 2.6em;
+        margin-bottom: 25px;
+    }
+
+        .footer-contenido-lista {
+            margin-bottom: 0;
+            padding-left: 1.5em;
+        }
+
+            .footer-lista-elemento {
+                font-size: 1.35em;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+            }
+            .footer-lista-elemento:last-of-type {
+                margin-bottom: 50px;
+            }
+            
+.footer-copyright {
+    font-size: 1.35em;
+    line-height: 1.2;
+    padding: 10px 50px;
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
