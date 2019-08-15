@@ -124,7 +124,7 @@ header {
 
 .header-contacto {
     height: 50px;
-    background: url('../../src/images/adorno.png');
+    background: url('../src/images/adorno.png');
     background-size: 100% 100%;
     border-bottom: none;
     margin: 0 ;

@@ -3,7 +3,7 @@
 \* --------------------------- */
 
 #registro {
-    background-image: url('../../src/images/adorno.png');
+    background-image: url('../src/images/adorno.png');
     background-size: 100% 100%;
     padding: 75px;
     padding-top: 40px;

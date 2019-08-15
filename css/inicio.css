@@ -3,7 +3,7 @@
 \* --------------------------- */
 
 .inicio-contenido {
-    background-image: url('../..//src/images/slider_principal.png');
+    background-image: url('../src/images/slider_principal.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -31,10 +31,6 @@
             align-items: center;
         }
 
-            .beneficios-contenido-imagen img {
-                
-            }
-
         .beneficios-contenido-subtitulo {
             font-size: 3.6em;
             color: var(--color-white);
@@ -48,6 +44,7 @@
 
             margin-top: .5em;
             margin-bottom: 140px;
+            text-align: justify;
         }
 
     .beneficios-imagen {
