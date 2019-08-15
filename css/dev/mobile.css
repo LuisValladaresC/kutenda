@@ -1,4 +1,121 @@
+@media (max-width: 1600px) { 
+    html {
+        font-size: 14px;
+    }
+
+    .header-contacto {
+        margin: 0 100px;
+    }
+    
+    .header-navbar {
+        margin: 0 100px;
+    }
+
+    #nosotros {
+        padding-left: 100px;
+    }
+
+    .nosotros-boton {
+        margin-bottom: 2em;
+    }
+
+    #filosofia {
+        padding: 40px 100px;
+    }
+
+    .filosofia-contenedor-imagen {
+        display: flex;
+        align-items: center;
+    }
+
+    .filosofia-imagen {
+        top: 0;
+    }
+
+    .filosofia-parrafo:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .beneficios-imagen .col-lg-6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .beneficios-imagen img {
+        height: auto;
+    }
+
+    .preguntas-contenedor-imagen {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .preguntas-imagen {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer-contenido {
+        padding: 80px 100px 60px;
+    }
+
+    #footer .col-lg {
+        padding: 0 1rem;
+    }
+    
+    #footer .col-lg:first-child {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1300px) {
+    html {
+        font-size: 12px;
+    }
+
+    .header-contacto {
+        margin: 0 50px;
+    }
+    
+    .header-navbar {
+        margin: 0 50px;
+    }
+
+    #nosotros {
+        padding-left: 50px;
+    }
+
+    #filosofia {
+        padding: 40px 50px;
+    }
+
+    .funcionamiento-card-boton {
+        margin-bottom: 55px;
+    }
+
+    .beneficios-imagen img {
+        width: 100%;
+        height: auto;
+    }
+
+    .beneficios-margen:last-of-type {
+        height: 0;
+    }
+
+    .footer-contenido {
+        padding: 80px 50px 60px;
+    }
+
+    #footer .col-lg:first-child {
+        margin-right: 50px;
+    }
+}
+
 @media (max-width: 991px) { 
+/* ------ GENERALES ------ */
+html {
+    font-size: 16px;
+}
 
 /* ------ HEADER ------ */
 header {
@@ -23,7 +140,8 @@ header {
 }
 
     .header-navbar-menu {
-        padding: 0
+        padding: 0;
+        font-size: 3em;
     }
 
     .header-navbar-logo {
@@ -83,10 +201,11 @@ header {
         margin: 0 auto;
 
         padding-bottom: 6px;
-        font-size: 1.6em;
+        font-size: 1.7em;
         font-weight: 700;
-        line-height: 1;
+        line-height: 1.25;
         letter-spacing: 1px;
+        height: auto;
     }
 
 /* ------ NOSOTROS ------- */
@@ -103,8 +222,7 @@ header {
     .nosotros-parrafo {
         font-size: 1.5em;
         text-align: justify;
-        letter-spacing: 1px;
-        line-height: 1.1;
+        line-height: 1;
     }
     .nosotros-parrafo:last-of-type {
         margin-bottom: 30px;
@@ -113,6 +231,7 @@ header {
     .nosotros-boton {
         font-size: 1.4em;
         padding: 0.1em 1.1em 0.2em;
+        margin-bottom: 0;
     }
 
     .nosotros-imagen {
@@ -124,7 +243,7 @@ header {
 
 #filosofia {
     padding: 30px;
-    padding-bottom: 44px;
+    padding-bottom: 50px;
     background-color: var(--color-secundario);
 }
 
@@ -146,6 +265,7 @@ header {
     
     .filosofia-parrafo {
         font-size: 1.5em;
+        font-weight: 350;
         line-height: 1.1;
     }
 
@@ -325,6 +445,10 @@ header {
     padding: 0;
 }
 
+#footer .col-lg:first-child {
+    margin-right: 0;
+}
+
     .footer-contenido-logo {
         max-width: 340px;
 
@@ -334,6 +458,7 @@ header {
 
     .footer-contenido-parrafo {
         font-size: 1.35em;
+        font-weight: 350;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -350,6 +475,7 @@ header {
 
             .footer-lista-elemento {
                 font-size: 1.35em;
+                font-weight: 350;
                 margin-bottom: 10px;
                 letter-spacing: 1px;
             }
@@ -358,24 +484,9 @@ header {
             }
             
 .footer-copyright {
-    font-size: 1.35em;
+    font-size: 1.5em;
     line-height: 1.2;
-    padding: 10px 50px;
+    padding: 10px 40px;
 }
 
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    
 }

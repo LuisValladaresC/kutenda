@@ -9,11 +9,15 @@
 
     .header-contacto-enlace {
         font-size: 1.2em;
-        color: var(--color-secundario);
+        color: var(--color-principal);
     }
     .header-contacto-enlace:last-of-type {
         padding-right: 0;
     }
+
+        .header-contacto-enlace i {
+            color: var(--color-secundario);
+        }
 
 .header-navbar {
     padding-right: 0;
@@ -22,7 +26,7 @@
 }
 
     .header-navbar-logo {
-        width: 100%;
+        width: 18rem;
     }
 
     .header-navbar-menu {

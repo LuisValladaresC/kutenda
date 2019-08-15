@@ -10,6 +10,7 @@
     .filosofia-imagen {
         position: relative;
         top: -120px;
+        max-width: 100%;
     }
 
     .filosofia-titulo {
@@ -28,4 +29,7 @@
     }
     .filosofia-parrafo:first-of-type {
         margin-bottom: 1em;
+    }
+    .filosofia-parrafo:last-of-type {
+        margin-bottom: 40px;
     }

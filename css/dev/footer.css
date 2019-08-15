@@ -2,12 +2,17 @@
             FOOTER
 \* --------------------------- */
 
+#footer .col-lg {
+    padding: 0;
+}
+
+#footer .col-lg:first-child {
+    margin-right: 200px;
+}
+
 .footer-contenido {
     background-color: var(--color-principal);
     padding: 80px 150px 60px;
-}
-.footer-contenido .col:first-child {
-    padding-right: 150px;
 }
 
     .footer-contenido-logo {
