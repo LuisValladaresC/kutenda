@@ -3,7 +3,7 @@
 \* --------------------------- */
 
 #funcionamiento {
-    padding: 40px 150px;
+    padding: 40px 160px;
 }
 
     .funcionamiento-titulo {
@@ -11,10 +11,13 @@
         font-weight: 600;
         color: var(--color-principal);
         text-align: center;
+        margin-bottom: 50px;
     }
 
 
         .funcionamiento-card-imagen {
+            width: 100%;
+            max-width: 364px;
             margin: 0 auto;
             display: block;
         }

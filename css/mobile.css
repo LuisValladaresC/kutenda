@@ -36,6 +36,18 @@
         margin-bottom: 0;
     }
 
+    #funcionamiento {
+        padding: 40px 100px;
+    }
+
+    .beneficios-titulo {
+        padding-left: 100px;
+    }
+
+    .beneficios-contenido {
+        padding-left: 100px;
+    }
+
     .beneficios-imagen .col-lg-6 {
         display: flex;
         align-items: center;
@@ -43,6 +55,10 @@
 
     .beneficios-imagen img {
         height: auto;
+    }
+
+    #preguntas {
+        padding: 0 100px 0 50px;
     }
 
     .preguntas-contenedor-imagen {
@@ -89,8 +105,16 @@
         padding: 40px 50px;
     }
 
-    .funcionamiento-card-boton {
-        margin-bottom: 55px;
+    #funcionamiento {
+        padding: 40px 50px;
+    }
+
+    .beneficios-titulo {
+        padding-left: 50px;
+    }
+
+    .beneficios-contenido {
+        padding-left: 50px;
     }
 
     .beneficios-imagen img {
@@ -98,8 +122,8 @@
         height: auto;
     }
 
-    .beneficios-margen:last-of-type {
-        height: 0;
+    #preguntas {
+        padding: 0 50px 0 30px;
     }
 
     .footer-contenido {
@@ -138,6 +162,10 @@ header {
 .header-navbar {
     margin: 0 30px;
 }
+
+    .header-navbar .navbar-brand {
+        margin: 0 !important;
+    }
 
     .header-navbar-menu {
         padding: 0;
@@ -278,6 +306,7 @@ header {
     .funcionamiento-titulo {
         font-size: 2.6em;
         padding: 0 20px;
+        margin-bottom: 15px;
     }
 
         .funcionamiento-card-imagen {
@@ -350,11 +379,12 @@ header {
         
         .beneficios-contenido-parrafo {
             font-size: 1.35em;
+            font-weight: 350;
             line-height: 1.2;
 
             margin-top: 1em;
             margin-bottom: 0;
-            padding: 0 15px;
+            padding: 0 10px;
         }
 
     .beneficios-imagen {
@@ -489,4 +519,15 @@ header {
     padding: 10px 40px;
 }
 
+}
+
+@media (max-width: 400px) { 
+    .header-navbar {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+        .header-navbar-menu {
+            font-size: 2.7em;
+        }
 }
